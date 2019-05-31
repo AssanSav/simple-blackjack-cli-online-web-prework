@@ -23,7 +23,7 @@ puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
-sum = deal_card + display_card_total
+sum = deal_card + deal_card
 display_card_total(sum)
 return sum
 end
