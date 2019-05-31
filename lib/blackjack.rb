@@ -7,11 +7,12 @@ rand(1..11)
 end
 
 def display_card_total
-  # code #display_card_total here
+  
 end
 
 def prompt_user
-  # code #prompt_user here
+  user = gets.chomp
+  puts 
 end
 
 def get_user_input
