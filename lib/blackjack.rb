@@ -43,12 +43,12 @@ def invalid_command
   # code invalid_command here
 end
 
-#####################################################
-# get every test to pass before coding runner below #
-#####################################################
 
 def runner
   welcome
-  initial_round
+  hand = initial_round
+  until hand > 21 do 
+    hand = hit?(hand)
+    display_card_total
 end
     
