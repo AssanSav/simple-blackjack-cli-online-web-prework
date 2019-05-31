@@ -31,7 +31,7 @@ end
 def hit?(number)
   prompt_user
   input = get_user_input
-  
+  input == "h"
 end
 
 def invalid_command
