@@ -21,14 +21,14 @@ end
 def end_game(card_total)
 puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
-(current_total)
+
 def initial_round
 sum = deal_card + deal_card
 display_card_total(sum)
 return sum
 end
 
-def hit?
+def hit?(current_total)
   prompt_user
   input = get_user_input
   input == "h" ? "card_total += deal_card" : input == "s"
