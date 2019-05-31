@@ -11,7 +11,7 @@ def display_card_total
 end
 
 def prompt_user
-  prompt_user = gets.chomp
+ gets.chomp
   puts "Type 'h' to hit or 's' to stay"
 end
 
