@@ -5,6 +5,7 @@ end
 def deal_card
   for deal_card in 1..11 do
 end
+end
 
 def display_card_total
   # code #display_card_total here
