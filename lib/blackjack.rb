@@ -3,8 +3,7 @@ def welcome
 end
 
 def deal_card
-  for deal_card in 1..11 do
-end
+rand(1..11)
 end
 
 def display_card_total
