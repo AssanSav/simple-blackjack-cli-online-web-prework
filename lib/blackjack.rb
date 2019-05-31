@@ -29,6 +29,8 @@ return sum
 end
 
 def hit?(number)
+  prompt_user
+  input = get_user_input
   
 end
 
