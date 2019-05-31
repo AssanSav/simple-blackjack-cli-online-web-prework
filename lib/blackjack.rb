@@ -34,6 +34,7 @@ def hit?(current_total)
   input == "h" ? "card_total += deal_card" : input == "s"
   return current_total
 end
+end
 
 def invalid_command
   # code invalid_command here
