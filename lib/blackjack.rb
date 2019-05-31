@@ -31,7 +31,7 @@ end
 def hit?(number)
   prompt_user
   input = get_user_input
-  input == "h" ? "card_total += deal_card" : input == "s"
+  input == "h"  "card_total += deal_card" : input == "s"
 end
 
 def invalid_command
